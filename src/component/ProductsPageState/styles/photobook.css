@@ -1,0 +1,28 @@
+.product-photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.7rem 1.5rem;
+    margin-bottom: 6rem;
+}
+.product-photo div{
+    box-shadow: 5px 15px 25px #ccc9c9;
+    border-radius: 3rem;
+}
+.product-photo img{
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem; 
+    width: 100%;
+    height: 60rem;
+    object-fit: cover;
+}
+.product-photo h1{
+    font-size: 6rem;
+    font-weight: bolder;
+    color: rgb(57,57,57);
+    margin: 3rem 0;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem; 
+}

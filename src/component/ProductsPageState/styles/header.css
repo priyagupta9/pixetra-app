@@ -1,0 +1,12 @@
+.header{
+    background-image: url(../img/rectangle-headerBg.png);
+    height: 10rem;
+    color: rgb(255,255,255);
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+.header span{
+    margin-right: 2rem;
+}

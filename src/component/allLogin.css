@@ -1,0 +1,84 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.otp-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: var(--bright-sky-blue);
+  }
+.otp-header{
+  flex-direction: column;
+}
+.otp-page .logo{
+    height: 160px;
+    width: 160px;
+  }
+.otp-msg{
+  color: var(--white);
+  font-size: 18px;
+  margin-top: 30px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(223, 231, 239);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.btns{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.err-content{
+  flex-direction: column;
+  height: 80vh;
+}
+.err{
+  margin: 0px;
+  font-size: 5rem;
+}
+.errorGif{
+  object-fit: contain;
+  width: 80%;
+}
+.err-content p{
+  font-size: 25px;
+}
+
+form{
+  width: 100%;
+}
+.input_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* love btn */
+.love-btn{
+  background-color: #1e7af2;
+  color: white;
+  border-radius: 2rem;
+  width: 100%;
+  font-size: 18px;
+  }
+  .love-box{
+      width: 80%;
+  }
+  .love-box span{
+      font-size: 24px;
+      margin-right: 5px;
+  }

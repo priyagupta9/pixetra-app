@@ -1,0 +1,51 @@
+.blue-box{
+    display: flex;
+    background-color: var(--deep-sky-blue);
+    border: 2px solid var(--deep-sky-blue);
+    height: 55px;
+    width: 90%;
+    object-fit: contain;
+    border-radius:27.5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.sub{
+    width: 90%;
+}
+
+.blue-text{ 
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.blue-box img{
+    position: absolute;
+    left: 27px;
+    height: 20.7px;
+    width: 20.7px;
+    fill: var(--white);
+    border-radius: 0;
+}
+
+/* Change bg color in autofill textbox */
+input{
+    display: flex;
+    font-size: 15px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    box-shadow: 0 0 0 10px var(--white) inset !important;
+    -webkit-text-fill-color: var(--light-blue) !important;
+}
+
+
+input:-webkit-autofill::first-line {
+    font-size: 15px !important;
+}

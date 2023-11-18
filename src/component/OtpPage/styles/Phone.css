@@ -1,0 +1,34 @@
+.white-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nr-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.nr-input span{
+    /* position: absolute;
+    left: 80px; */
+    display: block;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--light-blue);
+    z-index: 2;
+}
+
+.nr-input input{
+    outline: none;
+    border-bottom: 3px solid var(--light-blue) !important;
+    text-align: left !important;
+    font-weight: lighter;
+    transition: all 0.2s linear;
+    width: 68% !important;
+    letter-spacing: 6px;
+    color: var(--light-blue);
+}

@@ -1,0 +1,29 @@
+.circle-btns-wrapper{
+    margin-top: 34px;
+    display: flex;
+    gap: 20px;
+}
+.circlebtn{
+    width: 64px;
+    height: 65px;
+    border-radius: 50%;
+    align-items: center;
+    border: solid 1px var(--powder-blue);
+    background-color: var(--white);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.circlebtn img{
+    width: 60px;
+    height: 60px;
+}
+.btnskip{
+    width: 100%;
+    position: absolute;
+    bottom : 0;
+    left: 0;
+}
+.btnskip img{
+    width: 100%;
+}

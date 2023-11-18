@@ -1,0 +1,48 @@
+:root{
+  /* colors */
+  --deep-sky-blue:#1e7af2;
+  --light-blue:#2699fb;
+  --bright-sky-blue:#18bdf7;
+  --light-cyan:#a7e8ff;
+  --powder-blue:#bce0fd;
+  --blue-bg:#edf4fb;
+  --light-blue:#2699fb;
+  --white:#fff;
+  --brownish-grey:#757575;
+  --warm-grey:#707070;
+  --black:#393939;
+  --black-Two:#000000;
+  --box-shadow:rgba( 0, 0, 0, 0.16);
+
+  /* fonts */
+  --main-font:'Nunito Sans', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  font-size: 32px;
+  font-weight: bold;
+}
+h2{
+  font-size: 24px;
+  font-weight: bold;
+}
+p{
+  font-size: 16px;
+  font-weight: normal;
+}
+h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+h6{
+  font-size: 14px;
+  font-weight: normal;
+}

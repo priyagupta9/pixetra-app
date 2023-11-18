@@ -1,0 +1,37 @@
+.herodiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.heroimg{
+   width: 96%;
+    border-radius: 0.5rem;
+   margin-top: 6px;
+   
+}
+.homeimg{
+    width: 100%;
+    height : auto;
+}
+.homebtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+.homebtn button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    background-color: rgb(30, 122, 242);
+    padding: 15px 35px;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    border-radius: 10rem;
+}
+.homebtn span{
+    padding-left: 53px;
+}

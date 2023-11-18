@@ -1,0 +1,14 @@
+.SliderHeader{
+    padding-left: 7px;
+    margin-bottom: -5px;
+    font-weight: 900;
+}
+/* .slick-list {
+    overflow: visible;
+} */
+.collectionSliderWrap .a-box{
+    margin-left: 2.4rem;
+}
+.featureSliderWrap .slick-track{
+    margin-left: 2.8rem !important;
+}
